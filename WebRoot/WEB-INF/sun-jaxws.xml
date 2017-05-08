@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<endpoints version="2.0"
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+	<endpoint name="APITestPort"
+		implementation="com.plat.api.APITestDelegate"
+		url-pattern="/APITestPort">
+	</endpoint>
+	<endpoint name="BankServicePort"
+		implementation="com.plat.bank.BankServiceDelegate"
+		url-pattern="/BankServicePort">
+	</endpoint></endpoints>
